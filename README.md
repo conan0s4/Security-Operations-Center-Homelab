@@ -4,6 +4,7 @@ A home-based Security Operations Center (SOC) environment built to simulate real
 [+]on going...
   <br>
 [+]scaling down...
+  <br>
 [+]too broke :(
 
   
