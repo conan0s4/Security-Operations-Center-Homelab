@@ -3,4 +3,4 @@
 
   
 </p>
-![Architecture](images/Home Lab-Architecture.png)
+![Architecture](images/Lab-Architecture.png)
