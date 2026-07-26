@@ -5,6 +5,6 @@
 
 
 <p>
-note:
-Not everyone has 64 GB of RAM, a rack server, or a dozen virtual machines. This project shows how to build a functional SOC lab using just one Windows laptop, one Kali VM, and free open-source tools.
+Why this lab?
+This project demonstrates how to build a functional SOC lab using a single Windows laptop and one Kali Linux VM. The goal was to maximize hands-on learning with limited hardware while exploring endpoint monitoring, detection engineering, and incident investigation using Wazuh.
 </p>
