@@ -1,10 +1,6 @@
 # Security-Operations-Center-Homelab
 <p>
-[+]on going...
-  <br>
-[+]scaling down...
-  <br>
-[+]too broke :(
 
   
 </p>
+![Architecture](../images/Home Lab Architecture.png)
