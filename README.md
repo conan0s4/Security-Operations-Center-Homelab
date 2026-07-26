@@ -1,6 +1,3 @@
-# Security-Operations-Center-Homelab
-<p>
+<h1 align="center">Budget-Friendly SOC Lab</h1>
 
-  
-</p>
-![Architecture](/images/Home Lab Architecture.png)
+![Architecture](images/Lab-Architecture.png)
