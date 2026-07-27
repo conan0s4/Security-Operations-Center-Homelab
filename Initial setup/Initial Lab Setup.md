@@ -151,13 +151,13 @@ docker compose up -d
 
 Alternatively, the containers can be started through **Docker Desktop** after the compose project has been loaded.
 
-![8](../images/5.png)
+![8](../images/4.png)
 
 ---
 
 # Access the Wazuh Dashboard
 
-![9](../images/4.png)
+![9](../images/5.png)
 
 Once all containers have started successfully, open a web browser and navigate to:
 
