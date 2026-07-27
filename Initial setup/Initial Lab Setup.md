@@ -51,7 +51,7 @@ Although this hardware meets the minimum requirements for a basic SOC lab, alloc
 
 A minimal Kali Linux virtual machine setup is used.
 
-![1](images/9.png)
+![1](../images/9.png)
 
 ## Recommended Installation
 
