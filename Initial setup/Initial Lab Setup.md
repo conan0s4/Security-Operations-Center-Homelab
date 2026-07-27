@@ -51,7 +51,7 @@ Although this hardware meets the minimum requirements for a basic SOC lab, alloc
 
 A minimal Kali Linux virtual machine setup is used.
 
-![Screenshot 2026-07-26 170305.png](Screenshot_2026-07-26_170305.png)
+![1](images/9.png)
 
 ## Recommended Installation
 
@@ -77,7 +77,7 @@ A minimal Kali Linux virtual machine setup is used.
 
 # Wazuh Deployment
 
-![image.png](image.png)
+![2](images/8.png)
 
 The lab uses the **Single-Node Docker Deployment** provided by the official Wazuh project.
 
@@ -107,7 +107,7 @@ Clone the official Wazuh Docker repository.
 git clone https://github.com/wazuh/wazuh-docker.git -b v4.14.6
 ```
 
-![image.png](da12689e-b2ef-48b8-b1eb-6638f8555f3c.png)
+![3](images/6.png)
 
 Navigate to the Single-Node deployment directory.
 
@@ -117,7 +117,7 @@ cd wazuh-docker/single-node
 
 ---
 
-![image.png](7e2ed2c0-69af-434e-aa43-9e02ea5f13d9.png)
+![4](images/2.png)
 
 # Generate SSL Certificates
 
@@ -129,7 +129,7 @@ Generate self-signed certificates using the provided Docker image.
 docker compose -f generate-indexer-certs.yml run --rm generator
 ```
 
-![image.png](44ac57f7-ed0d-4605-b003-8bd16060926d.png)
+![5](images/3.png)
 
 The generated certificates will be stored in:
 
@@ -147,17 +147,17 @@ Start the Single-Node deployment.
 docker compose up -d
 ```
 
-![image.png](dc9e1aa7-b1ba-4e2f-9061-b8675764987d.png)
+![6](images/7.png)
 
 Alternatively, the containers can be started through **Docker Desktop** after the compose project has been loaded.
 
-![Screenshot (100).png](476b6725-4638-41be-937a-282127b71e92.png)
+![8](images/8.png)
 
 ---
 
 # Access the Wazuh Dashboard
 
-![image.png](0bfd6707-a1d2-4dea-9165-6dde79a949de.png)
+![9](images/4.png)
 
 Once all containers have started successfully, open a web browser and navigate to:
 
@@ -185,7 +185,7 @@ Use the following credentials to log in to the Wazuh Dashboard.
 > **Important:** Change the default administrator password after the initial login if this lab will be connected to any network outside of your isolated testing environment.
 > 
 
-![image.png](5391ee21-4b96-498e-a497-69147868cb96.png)
+![image.png](images/1.png)
 
 ---
 
