@@ -147,7 +147,7 @@ Start the Single-Node deployment.
 docker compose up -d
 ```
 
-![6](../images/8.png)
+![6](../images/7.png)
 
 Alternatively, the containers can be started through **Docker Desktop** after the compose project has been loaded.
 
