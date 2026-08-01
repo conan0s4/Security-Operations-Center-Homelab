@@ -7,3 +7,50 @@ This project demonstrates how to build a functional SOC lab using a single Windo
 
 
 ![Architecture](images/Lab-Architecture.png)
+
+
+
+## Technology Stack
+
+### Infrastructure
+- Windows 11 (Wazuh Server Host)
+- Windows 11 Endpoint
+- VirtualBox
+
+### Security Platform
+- Wazuh
+- Sysmon
+- Wazuh Agent
+
+### Attack Platform
+- Kali Linux
+
+---
+
+## Objectives
+
+- Deploy a centralized security monitoring environment
+- Configure endpoint telemetry collection
+- Simulate attacker techniques
+- Detect and analyze security events
+- Document attack scenarios and investigations
+
+---
+
+## Repository Structure
+
+wazuh-soc-homelab/
+│
+├── README.md
+├── initial setup/
+├── setup/
+├── scenarios/
+├── images/
+├── detections/
+└── configs/
+
+---
+
+## Implemented Simulations
+
+- [ ] none
