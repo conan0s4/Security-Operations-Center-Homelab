@@ -22,7 +22,6 @@ This project demonstrates how to build a functional SOC lab using a single Windo
 - Monitored Windows Endpoint (Wazuh Agent)
 - VirtualBox Host
 
----
 
 ### Kali Linux Virtual Machine
 **Operating System**
