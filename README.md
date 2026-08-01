@@ -9,21 +9,26 @@ This project demonstrates how to build a functional SOC lab using a single Windo
 ![Architecture](images/Lab-Architecture.png)
 
 
+## Lab Components
 
-## Technology Stack
+### Main Host
+**Operating System**
+- Windows 11
 
-### Infrastructure
-- Windows 11 (Wazuh Server Host)
-- Windows 11 Endpoint
-- VirtualBox
+**Roles**
+- Wazuh Server (Docker)
+- Monitored Windows Endpoint (Wazuh Agent)
+- VirtualBox Host
 
-### Security Platform
-- Wazuh
-- Sysmon
-- Wazuh Agent
+---
 
-### Attack Platform
+### Kali Linux Virtual Machine
+**Operating System**
 - Kali Linux
+
+**Roles**
+- Attack Platform
+- Monitored Linux Endpoint (Wazuh Agent)
 
 ---
 
