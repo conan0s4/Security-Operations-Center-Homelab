@@ -54,3 +54,11 @@ wazuh-soc-homelab/
 ## Implemented Simulations
 
 - [ ] none
+
+---
+
+### To do's
+
+- [x] initial setup
+- [x] agent setup
+- [ ] sysmon setup in windows
