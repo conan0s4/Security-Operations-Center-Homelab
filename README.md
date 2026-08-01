@@ -13,17 +13,12 @@ This project demonstrates how to build a functional SOC lab using a single Windo
 
 ## Technology Stack
 
-### Infrastructure
 - Windows 11
 - VirtualBox
 - Docker Desktop
-
-### Security Platform
 - Wazuh
 - Wazuh Agent
 - Sysmon
-
-### Attack Platform
 - Kali Linux
 
 ---
