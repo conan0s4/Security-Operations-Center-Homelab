@@ -51,7 +51,7 @@ Although this hardware meets the minimum requirements for a basic SOC lab, alloc
 
 A minimal Kali Linux virtual machine setup is used.
 
-![1](images/9.png)
+![1](../images/9.png)
 
 ## Recommended Installation
 
@@ -77,7 +77,7 @@ A minimal Kali Linux virtual machine setup is used.
 
 # Wazuh Deployment
 
-![2](images/8.png)
+![2](../images/8.png)
 
 The lab uses the **Single-Node Docker Deployment** provided by the official Wazuh project.
 
@@ -107,7 +107,7 @@ Clone the official Wazuh Docker repository.
 git clone https://github.com/wazuh/wazuh-docker.git -b v4.14.6
 ```
 
-![3](images/6.png)
+![3](../images/6.png)
 
 Navigate to the Single-Node deployment directory.
 
@@ -117,7 +117,7 @@ cd wazuh-docker/single-node
 
 ---
 
-![4](images/2.png)
+![4](../images/2.png)
 
 # Generate SSL Certificates
 
@@ -129,7 +129,7 @@ Generate self-signed certificates using the provided Docker image.
 docker compose -f generate-indexer-certs.yml run --rm generator
 ```
 
-![5](images/3.png)
+![5](../images/3.png)
 
 The generated certificates will be stored in:
 
@@ -147,17 +147,17 @@ Start the Single-Node deployment.
 docker compose up -d
 ```
 
-![6](images/7.png)
+![6](../images/7.png)
 
 Alternatively, the containers can be started through **Docker Desktop** after the compose project has been loaded.
 
-![8](images/8.png)
+![8](../images/4.png)
 
 ---
 
 # Access the Wazuh Dashboard
 
-![9](images/4.png)
+![9](../images/5.png)
 
 Once all containers have started successfully, open a web browser and navigate to:
 
@@ -185,7 +185,7 @@ Use the following credentials to log in to the Wazuh Dashboard.
 > **Important:** Change the default administrator password after the initial login if this lab will be connected to any network outside of your isolated testing environment.
 > 
 
-![image.png](images/1.png)
+![image.png](../images/1.png)
 
 ---
 
