@@ -8,6 +8,7 @@ This project demonstrates how to build a functional SOC lab using a single Windo
 
 ![Architecture](images/Lab-Architecture.png)
 
+---
 
 ## Lab Components
 
@@ -39,20 +40,6 @@ This project demonstrates how to build a functional SOC lab using a single Windo
 - Simulate attacker techniques
 - Detect and analyze security events
 - Document attack scenarios and investigations
-
----
-
-## Repository Structure
-
-wazuh-soc-homelab/
-│
-├── README.md
-├── initial setup/
-├── setup/
-├── scenarios/
-├── images/
-├── detections/
-└── configs/
 
 ---
 
