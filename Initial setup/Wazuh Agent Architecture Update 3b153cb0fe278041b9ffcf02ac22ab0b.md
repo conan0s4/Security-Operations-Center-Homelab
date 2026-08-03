@@ -14,7 +14,7 @@ The installation process is similar to the Linux agent setup performed previousl
 
 **Installation package**
 
-![Screenshot (182).png](Screenshot_(182).png)
+![Screenshot (182).png](../images/Agent_update-img/002.png)
 
 - Windows MSI (32-bit/64-bit)
 
@@ -28,7 +28,7 @@ The installation process is similar to the Linux agent setup performed previousl
 
 ### Installation Command
 
-![Screenshot (185).png](Screenshot_(185).png)
+![Screenshot (185).png](../images/Agent_update-img/003.png)
 
 ```powershell
 Invoke-WebRequest -Uri <https://packages.wazuh.com/4.x/windows/wazuh-agent-4.14.6-1.msi> -OutFile $env:tmp\wazuh-agent; msiexec.exe /i $env:tmp\wazuh-agent /q WAZUH_MANAGER='<server_addr>' WAZUH_AGENT_NAME='WindowsUser01'
@@ -46,8 +46,8 @@ NET START Wazuh
 NET STOP Wazuh
 ```
 
-![Screenshot (190).png](21cda0ef-c50b-493f-a263-b67ae2ca7874.png)
+![Screenshot (190).png](../images/Agent_update-img/001.png)
 
 **Wazuh-Agents:**
 
-![Screenshot (189).png](Screenshot_(189).png)
+![Screenshot (189).png](../images/Agent_update-img/004.png)
