@@ -46,7 +46,7 @@ NET START Wazuh
 NET STOP Wazuh
 ```
 
-![Screenshot (190).png](../images/Agent_update-img/001.png)
+![Screenshot (190).png](../images/Agent_update-img/003.png)
 
 **Wazuh-Agents:**
 
