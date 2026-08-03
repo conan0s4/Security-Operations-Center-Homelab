@@ -6,7 +6,7 @@
 
 For my home lab, I run Wazuh using Docker Desktop. Before starting the stack, I make sure Docker Desktop is already running.
 
-![Screenshot (134).png](ef5fa550-3587-4a93-b926-4fd5ffcf45eb.png)
+![Screenshot (134).png](../images/Agent-img/01.png)
 
 The Wazuh Docker files are located at:
 
@@ -26,7 +26,7 @@ To stop the stack:
 docker compose down
 ```
 
-![Screenshot (151).png](6e38197b-a809-45dd-9b17-044ced4d9108.png)
+![Screenshot (151).png](../images/Agent-img/00.png)
 
 ---
 
@@ -71,27 +71,27 @@ For my Linux virtual machine, I generated an agent installation command from the
 
 step 1
 
-![Screenshot 2026-08-01 102635.png](Screenshot_2026-08-01_102635.png)
+![Screenshot 2026-08-01 102635.png](../images/Agent-img/02.png)
 
 step 2
 
-![Screenshot (137).png](ef622686-6e5f-4011-b50c-5b4acd898f21.png)
+![Screenshot (137).png](../images/Agent-img/03.png)
 
 step  3
 
-![Screenshot (138).png](Screenshot_(138).png)
+![Screenshot (138).png](../images/Agent-img/04.png)
 
 step  4
 
-![Screenshot (140).png](77d647a4-1beb-4892-98c2-4820616d11eb.png)
+![Screenshot (140).png](../images/Agent-img/05.png)
 
 step  5
 
-![Screenshot (141).png](Screenshot_(141).png)
+![Screenshot (141).png](../images/Agent-img/06.png)
 
 step 6
 
-![Screenshot (143).png](40b7464c-d362-45b4-9b2f-6f442e0f5d2b.png)
+![Screenshot (143).png](../images/Agent-img/07.png)
 
 Before installing the agent in my linux virtual machine, I switched to the root user since the installation requires root privileges.
 
@@ -105,11 +105,11 @@ The generated installation command was:
 wget https://packages.wazuh.com/4.x/apt/pool/main/w/wazuh-agent/wazuh-agent_4.14.6-1_amd64.deb && WAZUH_MANAGER='<server-addr>' WAZUH_AGENT_NAME='LinuxUser02' dpkg -i ./wazuh-agent_4.14.6-1_amd64.deb
 ```
 
-![Screenshot (148).png](6f11b1ad-907c-4c21-854e-a808203ce14a.png)
+![Screenshot (148).png](../images/Agent-img/08.png)
 
 After the installation completed, I enabled and started the agent:
 
-![Screenshot (148).png](b54f6004-4dd6-4b91-afb1-b0e317df8fdd.png)
+![Screenshot (148).png](../images/Agent-img/09.png)
 
 ```bash
 systemctl daemon-reload
@@ -141,7 +141,7 @@ systemctl status wazuh-agent
 
 ---
 
-![Screenshot (149).png](Screenshot_(149).png)
+![Screenshot (149).png](../images/Agent-img/010.png)
 
 The **Endpoint Summary** shows that the Linux agent is **Active**, indicating that the endpoint has been successfully registered with the Wazuh Manager and is operational.
 
