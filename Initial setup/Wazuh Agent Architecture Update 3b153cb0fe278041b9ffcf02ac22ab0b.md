@@ -28,7 +28,7 @@ The installation process is similar to the Linux agent setup performed previousl
 
 ### Installation Command
 
-![Screenshot (185).png](../images/Agent_update-img/002.png)
+![Screenshot (185).png](../images/Agent_update-img/001.png)
 
 ```powershell
 Invoke-WebRequest -Uri <https://packages.wazuh.com/4.x/windows/wazuh-agent-4.14.6-1.msi> -OutFile $env:tmp\wazuh-agent; msiexec.exe /i $env:tmp\wazuh-agent /q WAZUH_MANAGER='<server_addr>' WAZUH_AGENT_NAME='WindowsUser01'
