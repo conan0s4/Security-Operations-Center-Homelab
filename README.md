@@ -43,4 +43,4 @@ This project demonstrates how to build a functional SOC lab using a single Windo
 
 - [x] initial setup
 - [x] agent setup
-- [ ] sysmon setup in windows
+- [x] sysmon setup in windows
