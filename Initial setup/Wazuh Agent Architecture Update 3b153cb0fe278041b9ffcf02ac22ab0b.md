@@ -14,7 +14,7 @@ The installation process is similar to the Linux agent setup performed previousl
 
 **Installation package**
 
-![Screenshot (182).png](../images/Agent_update-img/001.png)
+![Screenshot (182).png](../images/Agent_update-img/002.png)
 
 - Windows MSI (32-bit/64-bit)
 
@@ -46,7 +46,7 @@ NET START Wazuh
 NET STOP Wazuh
 ```
 
-![Screenshot (190).png](../images/Agent_update-img/002.png)
+![Screenshot (190).png](../images/Agent_update-img/001.png)
 
 **Wazuh-Agents:**
 
