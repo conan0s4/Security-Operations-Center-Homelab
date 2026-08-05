@@ -5,7 +5,9 @@
 ![image.png](../images/sysmon_img/a1.png)
 
 
-- [x] 1
+- [x] p1
+
+
 ![Screenshot (169).png](../images/sysmon_img/a2.png)
 
 ![image.png](../images/sysmon_img/a3.png)
@@ -19,7 +21,9 @@
 ![image.png](../images/sysmon_img/a5.png)
 
 
-- [x] 2
+- [x] p2
+
+
 ![Screenshot (221).png](../images/sysmon_img/a6.png)
 
 ![Screenshot (222).png](../images/sysmon_img/a7.png)
