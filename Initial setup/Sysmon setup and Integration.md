@@ -11,10 +11,12 @@
 ![Screenshot (169).png](../images/sysmon_img/a2.png)
 
 
-- [x] p01
-
 
 ![image.png](../images/sysmon_img/a3.png)
+
+
+- [x] p01
+
 
 ![Screenshot (177).png](../images/sysmon_img/a4.png)
 
@@ -31,6 +33,8 @@
 ![Screenshot (221).png](../images/sysmon_img/a6.png)
 
 ![Screenshot (222).png](../images/sysmon_img/a7.png)
+
+- [x] p02
 
 ![image.png](../images/sysmon_img/a8.png)
 
