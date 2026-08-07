@@ -45,5 +45,5 @@ This project demonstrates how to build a functional SOC lab using a single Windo
 - [x] agent setup
 - [x] sysmon setup in windows
 - [x] agent-setup update
-- [ ] Configure Wazuh to Collect Sysmon Logs
+- [x] Configure Wazuh to Collect Sysmon Logs
       
