@@ -35,7 +35,7 @@ This project demonstrates how to build a functional SOC lab using a single Windo
 
 ## Implemented Simulations
 
-- [ ] none
+- [ ] ssh BruteForce Attack <T1110>
 
 ---
 
